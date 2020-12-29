@@ -14,7 +14,7 @@ header
 }
 body
 {
-    width:800px;
+    width:90vw;
 
 }
 footer,header
@@ -23,7 +23,7 @@ footer,header
 }
 .main
 {
-   height: 110vw;
+   height: 130vw;
    padding:20px;
 }
 
