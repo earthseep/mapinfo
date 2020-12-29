@@ -24,6 +24,7 @@ footer,header
 .main
 {
    height: 110vw;
+   padding:20px;
 }
 
 area{
