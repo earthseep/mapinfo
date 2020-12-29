@@ -25,6 +25,6 @@ area{
     border:none;
     outline:none;
 }
-h1{
+h1,footer{
     text-align: center;
 }
