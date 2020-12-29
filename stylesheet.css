@@ -9,7 +9,7 @@ body
     background: #eeeeee;
     margin: 0;
 }
-#main
+.main
 {
     width: 1000px;
     border:solid 10px #000000;
