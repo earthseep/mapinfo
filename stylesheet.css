@@ -10,7 +10,7 @@ body,footer,header
 }
 header
 {
-    height: 200px;
+    height: 80px;
 }
 body
 {
@@ -23,7 +23,7 @@ footer,header
 }
 .main
 {
-   height: 1800px;
+   height: 90vw;
 }
 
 area{
