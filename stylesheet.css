@@ -6,6 +6,7 @@ body,footer
 {
     width:800px;
     background: #eeeeee;
+    border: 10px solid #FF0000;
     margin: 0 auto;
 }
 .main
