@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-body
+body,footer
 {
     width:800px;
     background: #eeeeee;
@@ -19,10 +19,4 @@ area{
 }
 h1{
     text-align: center;
-}
-footer
-{
-    width:800px;
-    background: #eeeeee;
-    margin: 0 auto;
 }
