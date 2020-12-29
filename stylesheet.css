@@ -5,12 +5,13 @@
 body
 {
     
-    width: 1000px;
+    
     background: #eeeeee;
     margin: 0;
 }
 main
 {
+    width: 1000px;
     border: 2px solid #000000;
 }
 
