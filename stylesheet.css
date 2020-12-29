@@ -2,12 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
-body,footer
+body,footer,header
 {
     background: #eeeeee;
     border: 10px solid #FF0000;
     margin: 0 auto;
 }
+
 body
 {
     width:800px;
