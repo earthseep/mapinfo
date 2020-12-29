@@ -11,8 +11,9 @@ body
 }
 .main
 {
-    width: 1000px;
+    width: 800px;
     border:solid 10px #000000;
+    margin: 0 auto;
 }
 
 area{
