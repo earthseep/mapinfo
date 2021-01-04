@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>インフォマップ</title>
-　　<link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-	<header>
-	    <h1>HelloWorld</h1>
-	</header>
-	<div class="main">
-		<img src="2282358.png" usemap="#ImageMap" alt="" / width = 800px>
-		<map name="ImageMap">
-	 	 <area shape="circle" onFocus="this.blur();" coords="740,824,83" href="./firstpoint.html" alt="" />
-		  <area shape="circle" onFocus="this.blur();" coords="743,972,127" href="./firstpoint.html" alt="" />
-		  <area shape="circle" onFocus="this.blur();" coords="741,1114,149" href="./firstpoint.html" alt="" />
-		  <area shape="circle" onFocus="this.blur();" coords="741,732,45" href="./firstpoint.html" alt="" />
-		  <area shape="rect" onFocus="this.blur();" coords="627,1208,855,1342" href="./firstpoint.html" alt="" />
-		  <area shape="rect" onFocus="this.blur();" coords="567,1167,914,1208" href="./firstpoint.html" alt="" />
-		  <area shape="rect" onFocus="this.blur();" coords="803,759,874,790" href="./firstpoint.html" alt="" />
-		  <area shape="rect" onFocus="this.blur();" coords="600,762,682,793" href="./firstpoint.html" alt="" />
-		</map>
-	</div>
-	<footer>
-		ⒸInfoGraphycsRoom2.All&nbsp;Rights&nbsp;Reserved.
-	</footer>
-
-</body>
+	<head>
+		<meta charset="utf-8"/>
+		<title>インフォマップ</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css"><!-- normalize.cssを、htmlと同じ階層にあるcssフォルダに入れた場合 -->
+　　	  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+				<header>
+					<h1 id="title">HelloWorld</h1>
+				</header>
+				<div class="main">
+					<p>動物をタッチすると説明のページに飛ぶよ！</p>
+					<img src="image.png" usemap="#ImageMap" alt="" />
+					<map name="ImageMap">
+					  <!--<area shape="circle" coords="451,592,138" href="#" alt="" /> -->
+					  <area shape="circle" coords="451.56375,592,138" href="../firstpoint.html" alt="" />
+					   <area shape="circle" coords="653,285,76" href="../firstpoint.html" alt="" />
+					   <area shape="circle" coords="654,408,59" href="../firstpoint.html" alt="" />
+					   <area shape="circle" coords="242,735,76" href="../secondpoint.html" alt="" />
+					   <area shape="circle" coords="227,828,92" href="../secondpoint.html" alt="" />
+					</map>
+					<script>
+						$('img[usemap]').rwdImageMaps();
+					</script>
+				</div>
+				<footer>
+					ⒸInfoGraphycsRoom2.All&nbsp;Rights&nbsp;Reserved.
+				</footer>
+		</div>
+	</body>
 </html>
