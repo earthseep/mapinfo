@@ -12,7 +12,7 @@ html{
 }
 body{
      font-size:0;
-   @background:#AEC4E5;
+     @background:#AEC4E5;
 	 margin: 0;
 	 padding: 0px;
 	 width: 90vw;
@@ -85,6 +85,8 @@ video{
 }
 iframe{
 	margin:0 1vw;
+	width: 80vw;
+	height: 45vw;
 }
 p{
     font-size: 4vw;
