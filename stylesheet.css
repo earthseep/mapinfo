@@ -8,11 +8,10 @@ footer,header
 	margin: 0;
 }
 html{
-	height:110%;
+	height:200vw;
 }
 body{
      font-size:0;
-     background:#AEC4E5;
 	 margin: 0;
 	 padding: 0px;
 	 width: 90vw;
