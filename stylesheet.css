@@ -96,7 +96,6 @@ p{
 #title{
 	margin: 0;
 }
-@media screen and (max-width: 720px)　{
 	.wrapper{
 	    width:100vw;
 		min-height: 100%;
@@ -109,19 +108,4 @@ p{
 		bottom:0;
 	    font-size: 3vw;
 	} 
-}
-@media screen and (min-width: 721px)　{
-	.wrapper{
-	        width:100vw;
-		min-height: 150%;
-		position: relative;
-	}
-
-	footer{
-		width:100%;
-		position:absolute;
-		bottom:0;
-	    font-size: 3vw;
-	} 
-}
 
